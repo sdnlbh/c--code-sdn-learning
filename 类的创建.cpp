@@ -47,11 +47,11 @@ public:
 
 int main()
 {
-	student a1;
+	student a1;//æ­¤å¤„ç›¸å½“äºåˆ›å»ºåˆå§‹å˜é‡ï¼Œè‹¥ä¸åˆå§‹åŒ–æ•°æ®ä¸ºéšæœºæ•°
 	a1.set_name();
 	a1.set_age(18);
 	a1.set_number();
-	a1.add_money(100);//ÕâÀïÈç¹û²»³õÊ¼»¯±äÁ¿»á³öÏÖËæ»úÖµ
+	a1.add_money(100);
 	a1.show_info();
 
 	return 0;
