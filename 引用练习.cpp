@@ -3,7 +3,7 @@ using namespace std;
 
 int& add(int& a, int& b,const int& x)
 {
-	static int c = a + b + x;//Èô²»ÒÔstaticĞŞÊÎÔòÒòÊı¾İ±»Ïú»Ù¶ø³ö´í
+	static int c = a + b + x;//è‹¥ä¸ä»¥staticä¿®é¥°åˆ™å› æ•°æ®è¢«é”€æ¯è€Œå‡ºé”™
 
 	return c;
 }
@@ -13,11 +13,11 @@ int main()
 	int aa = 8, bb = 9;
 	int& c = aa;
 	int& d = bb;
-	const int& x = 'x';//const¶ÔÒıÓÃ×Ô¶¯×ª»»
+	const int& x = 'x';//constå¯¹å¼•ç”¨è‡ªåŠ¨è½¬æ¢
 	int& e = add(c, d, x);
 	cout << e;
 
 
 
 	return 0;
-}
+}//
