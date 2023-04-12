@@ -21,11 +21,11 @@ public:
 		void init();
 		strcpy(name, arr);
 		appraise = a;
-		cout << "µ÷ÓÃ¹¹Ôìº¯Êý" << endl;
+		cout << "è°ƒç”¨æž„é€ å‡½æ•°" << endl;
 	}
 	~juice()
 	{
-		cout << "µ÷ÓÃÎö¹¹º¯Êý";
+		cout << "è°ƒç”¨æžæž„å‡½æ•°";
 	}
 	void show()
 	{
@@ -35,7 +35,7 @@ public:
 
 int main()
 {
-	juice coco("coco",5);
+	juice coco("coco",5);//è‹¥æž„é€ å‡½æ•°æ²¡æœ‰å‚æ•°åˆ™ä¸åŠ æ‹¬å·ã€‚
 	coco.show();
 	return 0;
 }
