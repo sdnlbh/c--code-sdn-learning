@@ -31,7 +31,7 @@ public:
 	{
 		cout << "name:" << name << endl << "appraise:" << appraise << endl;
 	}
-};
+};3
 
 int main()
 {
