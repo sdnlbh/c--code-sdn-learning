@@ -31,7 +31,7 @@ public:
 	{
 		cout << "name:" << name << endl << "appraise:" << appraise << endl;
 	}
-};3海王赛
+};3海王赛2023/4/16
 
 int main()
 {
