@@ -21,14 +21,14 @@ public:
 		void init();
 		strcpy(name, arr);
 		appraise = a;
-		cout << "µ÷ÓÃ¹¹Ôìº¯Êý" << endl;
+		cout << "è°ƒç”¨æž„é€ å‡½æ•°" << endl;
 	}
 	~juice()
 	{
-		cout << "µ÷ÓÃÎö¹¹º¯Êý";
+		cout << "è°ƒç”¨æžæž„å‡½æ•°";
 	}
 
-	juice(const juice& ex)//Ç³¿½±´£¨²»Éæ¼°µØÖ·£©
+	juice(const juice& ex)//æµ…æ‹·è´ï¼ˆä¸æ¶‰åŠåœ°å€ï¼‰
 	{
 		void init();
 		strcpy(name, ex.name);
@@ -49,4 +49,4 @@ int main()
 	juice coco_cp(coco);
 	coco_cp.show();
 	return 0;
-}
+}2
